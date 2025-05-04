@@ -1,0 +1,41 @@
+commodity ₹
+
+account assets
+account liabilities
+account equity
+account revenues
+account expenses
+
+2025-04-01 Opening Balances
+    assets:checking                       0
+    equity:opening-balances               0
+
+2025-04-05 Books 
+    expenses:book                539  ; Why Johnny Doesn't Flap
+    expenses:book		1257  ; What The Kite Saw
+    expenses:book		 818  ; The Junkyard Wonders
+    assets:checking            -2614
+
+2025-04-13 CBA Reading  ; What the Kite Saw
+    assets:checking                   22500
+    revenues:cba-community           -22500
+
+2025-04-15 CBA Donation  ; Donation to Aya and her sons who are survivors of Gaza War
+    expenses:donations:gaza           22500
+    assets:checking                  -22500
+
+2025-04-20 CBA Reading  ; Why Johnny Doesn't Flap
+    assets:checking                   2652
+    revenues:cba-community           -2652
+
+2025-04-21 College Workshop  ; Kamala Nehru College
+    assets:checking                     12800
+    revenues:college:workshop          -12800
+
+2025-04-19 Travel
+    expenses:travel            2600  ;  Dharamshala to Delhi (Arushi and Rajeev)
+    assets:checking           -2600
+
+2025-04-23 Travel
+    expenses:travel            2600  ;  Delhi to Dharamshala (Arushi and Rajeev)
+    assets:checking           -2600
