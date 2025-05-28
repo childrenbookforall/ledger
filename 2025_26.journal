@@ -39,3 +39,40 @@ account expenses
 2025-04-23 Travel
     expenses:travel            2600  ;  Delhi to Dharamshala (Arushi and Rajeev)
     assets:checking           -2600
+
+2025-05-11 CBA Reading  ; Mommies
+    assets:checking                   2500
+    revenues:cba-community           -2500
+
+2025-05-18 CBA Reading  ; Some Secrets Should Not Be Kept
+    assets:checking                   8105
+    revenues:cba-community           -8105
+
+2025-05-25 CBA Reading  ; Wo Raat
+    assets:checking                   1200
+    revenues:cba-community           -1200
+
+2025-05-05 Books
+    expenses:book               650 ;Mommies
+    expenses:book               651 ;Some Secrets Should Not Be Kept
+    expenses:book                70 ;Wo Raat
+    assets:checking           -1371
+
+2025-05-18 Books  ; Pratham
+    expenses:book                 100  ; We Hope: Children On Climate Change
+    expenses:book                  85  ; Home
+    expenses:shipping           38.25
+    assets:checking           -223.25
+
+2025-05-20 Books  ; Tulika
+    expenses:book               215  ;  Out in the Moonlight
+    expenses:book               195  ;  Will Goondi Come Home
+    expenses:book               275  ;  Go Go Flamingo
+    assets:checking            -685
+
+2025-05-21 Books  ; Seagull
+    expenses:book                 499  ;  Is it the same for you
+    expenses:book                  99  ;  Robby
+    expenses:book                  99  ;  Death in Eden
+    expenses:shipping              50
+    assets:checking              -747
