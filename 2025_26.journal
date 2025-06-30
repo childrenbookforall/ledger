@@ -76,3 +76,20 @@ account expenses
     expenses:book                  99  ;  Death in Eden
     expenses:shipping              50
     assets:checking              -747
+
+2025-06-08 CBA Reading  ; Go Go Flamingo
+    assets:checking                   4260
+    revenues:cba-community           -4260
+
+2025-06-15 CBA Reading  ; Giggi and Daddy
+    assets:checking                   1951
+    revenues:cba-community           -1951
+
+2025-06-15 CBA Reading  ; Is It The Same For You
+    assets:checking                  15261
+    revenues:cba-community          -15261
+
+2025-06-12 Books
+    expenses:book              1791  ;  Death Is Stupid
+    expenses:book               831  ;  One
+    assets:checking           -2622
