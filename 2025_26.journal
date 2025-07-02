@@ -86,10 +86,14 @@ account expenses
     revenues:cba-community           -1951
 
 2025-06-15 CBA Reading  ; Is It The Same For You
-    assets:checking                  15261
-    revenues:cba-community          -15261
+    assets:checking                  14761
+    revenues:cba-community          -14761
 
 2025-06-12 Books
     expenses:book              1791  ;  Death Is Stupid
     expenses:book               831  ;  One
     assets:checking           -2622
+
+2025-06-24 Gift a Loved One
+    assets:checking                   500
+    revenues:secret-santa            -500
