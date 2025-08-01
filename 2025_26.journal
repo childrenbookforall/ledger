@@ -17,16 +17,16 @@ account expenses
     assets:checking            -2614
 
 2025-04-13 CBA Reading  ; What the Kite Saw
-    assets:checking                   22500
-    revenues:cba-community           -22500
+    assets:checking                        22500
+    liabilities:funds-held:gaza           -22500
 
 2025-04-15 CBA Donation  ; Donation to Aya and her sons in Palestine
-    expenses:donations:gaza           22500
-    assets:checking                  -22500
+    liabilities:funds-held:gaza              22500
+    assets:checking                         -22500
 
 2025-04-20 CBA Reading  ; Why Johnny Doesn't Flap
-    assets:checking                   2652
-    revenues:cba-community           -2652
+    assets:checking                   3652
+    revenues:cba-community           -3652
 
 2025-04-21 College Workshop  ; Kamala Nehru College
     assets:checking                     12800
@@ -86,14 +86,85 @@ account expenses
     revenues:cba-community           -1951
 
 2025-06-15 CBA Reading  ; Is It The Same For You
-    assets:checking                  14761
-    revenues:cba-community          -14761
+    assets:checking             	     15311
+    liabilities:funds-held:kashmir          -15311
 
 2025-06-12 Books
-    expenses:book              1791  ;  Death Is Stupid
     expenses:book               831  ;  One
-    assets:checking           -2622
+    assets:checking            -831
 
 2025-06-24 Gift a Loved One
     assets:checking                   500
     revenues:secret-santa            -500
+
+2025-07-06 CBA Reading  ; The Girl on the Roof and the Boy on the Beach
+    assets:checking               	     21276
+    liabilities:funds-held:gaza             -21276
+
+2025-07-13 CBA Reading  ; I Love You Because I Love You
+    assets:checking                   1801
+    revenues:cba-community           -1801
+
+2025-07-20 CBA Reading  ; Is It The Same For You
+    assets:checking                     4890
+    liabilities:funds-held:kashmir     -4890
+
+2025-07-27 CBA Reading  ; I Go Quiet
+    assets:checking                   5071
+    revenues:cba-community           -5071
+
+2025-07-21 Books
+    expenses:book               377  ;  Thank You Bear
+    expenses:book               200  ; My Name is Gulaab
+    expenses:book               220  ; Lines
+    assets:checking            -797
+
+2025-07-27 Support Group
+    assets:checking                         6000
+    liabilities:support-group:grief        -6000
+
+2025-07-22 Support Group
+    assets:checking                         8000
+    liabilities:support-group:grief        -8000
+
+2025-07-23 Support Group
+    assets:checking                         6000
+    liabilities:support-group:grief        -6000
+
+2025-07-24 Support Group
+    assets:checking                      18000
+    liabilities:support-group:csa       -18000
+
+2025-07-23 Support Group
+    assets:checking                       4000
+    liabilities:support-group:csa        -4000
+
+
+2025-07-06 Donation to Gaza ;@10rupeeproject
+    liabilities:funds-held:gaza              21276
+    assets:checking                         -21276
+
+2025-07-28 Books  ; for secret santa gift 
+    expenses:book                 295  ;  Paper Bag Princess
+    expenses:book                 305  ;  This is not a fairy tale
+    expenses:shipping              71
+    assets:checking              -671
+
+
+2025-07-28 Send 'Is It The Same for you' to Kashmir
+    liabilities:funds-held:kashmir             499  ; Is It The Same for You
+    liabilities:funds-held:kashmir              71  ; shipping charge
+    expenses:book			      -499  ; balance the book cost from the fund
+    assets:checking			       -71  ; 
+
+2025-07-29 Support Group
+    assets:checking                          6000
+    liabilities:support-group:csa           -6000
+
+2025-07-31 Support Group
+    assets:checking                            6000
+    liabilities:support-group:grief           -6000
+
+2025-07-31 Support Group
+    assets:checking                            3000
+    liabilities:support-group:grief           -3000
