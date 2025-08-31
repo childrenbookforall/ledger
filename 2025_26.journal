@@ -168,3 +168,31 @@ account expenses
 2025-07-31 Support Group
     assets:checking                            3000
     liabilities:support-group:grief           -3000
+
+2025-08-31 CBA Reading
+    assets:checking                   2541
+    revenues:cba-community           -2541
+
+2025-08-15 CBA Reading
+    assets:checking                        6386
+    liabilities:funds-held:gaza           -6386
+
+2025-08-03 CBA Reading
+    assets:checking                   4751
+    revenues:cba-community           -4751
+
+2025-08-28 Support Group
+    assets:checking                          6000
+    liabilities:support-group:csa           -6000
+
+2025-08-29 Support Group
+    assets:checking                          3000
+    liabilities:support-group:joy           -3000
+
+2025-08-20 Support Group
+    assets:checking                           36250
+    liabilities:support-group:grief          -36250
+
+2025-08-15 CBA Donation
+    liabilities:funds-held:gaza 	       6386
+    assets:checking                           -6386
