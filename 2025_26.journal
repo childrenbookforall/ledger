@@ -196,3 +196,109 @@ account expenses
 2025-08-15 CBA Donation
     liabilities:funds-held:gaza 	       6386
     assets:checking                           -6386
+
+2025-08-19 Books Transport ; Moving 20 kg books from Dharamshala to Mysore
+    expenses:shipping 			        650
+    assets:checking                            -650
+
+2025-09-06 Support Group
+    assets:checking                          6000
+    liabilities:support-group:joy           -6000
+
+2025-09-06 Support Group
+    assets:checking                            2000
+    liabilities:support-group:grief           -2000
+
+2025-09-09 Support Group
+    assets:checking                          6000
+    liabilities:support-group:csa           -6000
+
+2025-09-17 Support Group
+    assets:checking                         20000
+    liabilities:support-group:csa          -20000
+
+2025-09-25 Support Group
+    assets:checking                            2000
+    liabilities:support-group:grief           -2000
+
+2025-09-26 Support Group
+    assets:checking                            4000
+    liabilities:support-group:grief           -4000
+
+2025-09-26 Support Group
+    assets:checking                            3000
+    liabilities:support-group:grief           -3000
+
+2025-09-24 School Workshop  ; Akshara School
+    assets:checking                     2000
+    revenues:school:workshop           -2000
+
+2025-09-06 Books
+    expenses:book                 321 ; Michael Rosin's sad book
+    expenses:book                 400 ; Circles in the Sky
+    assets:checking              -721
+
+2025-09-08 CBA Reading
+    assets:checking                   2786
+    revenues:cba-community           -2786
+
+2025-09-13 CBA Reading (Hindi)
+    assets:checking                         1100
+    revenues:cba-community:hindi           -1100
+
+2025-09-15 CBA Reading  ; The Dot
+    assets:checking                   3091
+    revenues:cba-community           -3091
+
+2025-09-21 CBA Reading  ; Roop and the river crossing
+    assets:checking                          3250
+    liabilities:funds-held:swadesh           -3250
+
+2025-09-22 CBA Reading  ; Luna's Red Hat
+    assets:checking                   2999
+    revenues:cba-community           -2999
+
+2025-09-29 CBA Reads  ; My Name is Gulaab
+    assets:checking                  11046
+    liabilities:funds-held:indigenous-peoples-collective          -11046
+
+2025-09-29 CBA Support group  ; Joy
+    assets:checking                           503
+    liabilities:support-group:joy            -503
+
+2025-09-29 Hindi books ordered for Swadesh Nani
+    liabilities:funds-held:swadesh            1652
+    assets:checking                          -1652
+
+2025-09-18 Printout for Mysore Reading
+    liabilities:funds-held:swadesh              80
+    assets:checking                            -80
+
+
+2025-09-29 Books
+    expenses:book                 440  ;  Rabbit Listened
+    expenses:book                 780  ;  Beautiful Oops
+    expenses:book                 707  ;  Not a Box
+    expenses:book                 623  ;  Everybody needs a rock
+    expenses:book                 649  ;  What feelings do when no one is looking
+    expenses:book                 855  ;  Extra Yarn
+    expenses:book                 507  ;  Milo imagines the world
+    expenses:shipping              40
+    assets:checking             -4601
+
+2025-09-29 Expenses for the event at Cancer hospital (travel, stationary and others)
+    expenses:travel                   1262
+    expenses:stationary                425
+    assets:checking                  -1687
+
+2025-09-25 Book for Kashmir
+    liabilities:funds-held:kashmir             305  ;  Ish book
+    assets:checking                           -305
+
+2025-09-29 Contribution to Indigenous People's Collective
+    liabilities:funds-held:indigenous-peoples-collective           11046
+    assets:checking                                               -11046
+
+2025-09-19 2 copies of the book Roop and the river crossing
+    liabilities:funds-held:swadesh             494
+    assets:checking                           -494
