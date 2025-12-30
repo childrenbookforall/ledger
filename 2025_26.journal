@@ -230,8 +230,12 @@ account expenses
     liabilities:support-group:grief           -3000
 
 2025-09-24 School Workshop  ; Akshara School
-    assets:checking                     2000
-    revenues:school:workshop           -2000
+    assets:checking                     4000
+    revenues:school:workshop           -4000
+
+2025-09-24 Facilitator Fees ; For the school workshop
+    expenses:facilitator		2000
+    assets:checking		       -2000
 
 2025-09-06 Books
     expenses:book                 321 ; Michael Rosin's sad book
@@ -302,3 +306,209 @@ account expenses
 2025-09-19 2 copies of the book Roop and the river crossing
     liabilities:funds-held:swadesh             494
     assets:checking                           -494
+
+2025-10-01 CBA Support group  ; Grief
+    assets:checking                            3000
+    liabilities:support-group:grief           -3000
+
+2025-10-02 Facilitator fees  ; advance fees for facilitator 1
+    liabilities:support-group:grief           10000
+    assets:checking                          -10000
+
+2025-10-12 Facilitator Fees
+    liabilities:support-group:csa           31320
+    assets:checking                        -31320
+
+2025-10-12 Support Group
+    assets:checking                          6000
+    liabilities:support-group:joy           -6000
+
+2025-10-31 Facilitator Fees
+    liabilities:support-group:grief           14000
+    assets:checking                          -14000
+
+2025-10-22 Domain Renewal
+    expenses:admin             2000
+    assets:checking           -2000
+
+2025-10-30 Books
+    expenses:book               790  ;  Red
+    expenses:book               402  ;  Happiness City
+    expenses:book               780  ;  Beautiful Oops
+    expenses:book               707  ;  Not a Box
+    expenses:book               623  ;  Everybody Needs a rock
+    expenses:book               855  ;  Extra Yarn
+    expenses:book               649  ;  What feelings do when no one is looking
+    expenses:book               568  ;  Heart and the Bottle X 2
+    expenses:book               310  ;  Wounds
+    expenses:book               205  ;  Amuchi Puchi
+    expenses:book               450  ;  This is not my Hat
+    expenses:book               300  ;  I want my hat back
+    expenses:book               451  ;  We found a hat
+    expenses:book               459  ; Sam and Dave dug a hole
+    assets:checking           -7549
+
+2025-10-05 Restorative Justice Workshop at Montford
+    expenses:travel:reimbursement            1000
+    expenses:stay:reimbursement              3600
+    assets:checking                         -4600
+
+2025-10-12 Facilitator Fees
+    liabilities:support-group:csa           31320
+    assets:checking                        -31320
+
+2025-10-02 Facilitator Fees
+    liabilities:support-group:grief           10000
+    assets:checking                          -10000
+
+2025-10-26 Support Group
+    assets:checking                          3000
+    liabilities:support-group:joy           -3000
+
+2025-10-18 Support Group
+    assets:checking                          6000
+    liabilities:support-group:joy           -6000
+
+2025-10-31 Support Group
+    assets:checking                            4000
+    assets:checking                            3000
+    assets:checking                            5500
+    assets:checking                            6001
+    assets:checking                            4000
+    liabilities:support-group:grief          -22501
+
+2025-10-05 Support Group
+    assets:checking                          1600
+    liabilities:support-group:csa           -1600
+
+2025-10-05 CBA Reading (Hindi)  ; Roshini se bharpur
+    assets:checking                         1996
+    revenues:cba-community:hindi           -1996
+
+2025-10-12 CBA Reading  ; What are our feelings upto
+    assets:checking                   5514
+    revenues:cba-community           -5514
+
+2025-10-26 CBA Reading  ; Milo Imagines the world
+    assets:checking                   4901
+    revenues:cba-community           -4901
+
+2025-11-09 Facilitator Fees
+    liabilities:support-group:joy            5000
+    assets:checking                         -5000
+
+2025-11-30 Books for Secret Santa
+    expenses:book               525  ;  Red Tree
+    expenses:book               305  ;  When Sadness Comes To Call
+    expenses:book               198  ;  Oh! the places you'll go
+    expenses:book               350  ;  An unexpected thing
+    expenses:book               402  ;  Sam and Dave dug a hole
+    expenses:book               312  ;  Tad
+    expenses:book               306  ;  When Sadness Comes to Call
+    expenses:book               300  ;  The Heart and the Bottle
+    expenses:book               362  ;  The Mabel and the Mountain
+    expenses:book               669  ;  A stone that stood still
+    expenses:book               362  ;  The Mabel and the mountain
+    expenses:book               669  ;  A stone that stood still
+    expenses:book               269  ;  The Sea Saw
+    expenses:book               300  ; The boy, the fox, the mole and the horse
+    expenses:book               322  ;  Rain before rainbows
+    expenses:book               300  ;  The Heart and the bottle
+    expenses:book               290  ;  Wherever you are, my love will finds you
+    expenses:book               350  ;  Dance of the wild
+    expenses:book               499  ;  Akela
+    expenses:book               350  ;  Unboy Boy
+    expenses:book               250  ;  Purdu
+    expenses:book               269  ;  The Sea Saw
+    expenses:book               280  ;  The boy, the fox, the mole and the horse
+    expenses:book               320  ;  Rain before rainbows
+    expenses:book               525  ;  Red Tree
+    expenses:book               215  ;  House for Dubki
+    expenses:book               290  ;  Perfectly Norman
+    expenses:book               335  ;  Be Kind
+    expenses:book               215  ;  The Mountain the loved the bird
+    expenses:book               344  ;  What we'll build
+    expenses:book               200  ;  The Cat in the Hat
+    expenses:book               315  ;  Lost
+    expenses:book               510  ;  Wonder Walkers
+    expenses:book               290  ;  When Sadness comes to call
+    expenses:book               153  ;  I love you because I love you
+    expenses:book               153  ;  I love you because I love you
+    expenses:book               366  ;  Out of Nowhere
+    expenses:book               450  ;  The Suitcase
+    expenses:book               245  ;  Mabel and the Mountain
+    expenses:book               344  ;  What we'll build
+    expenses:book               623  ;  Everybody needs a rock
+    expenses:book               499  ;  Lost
+    expenses:book               514  ;  I love you more than all the stars
+    expenses:book               288  ;  Almost Anything
+    expenses:book               600  ;  This is a gift for you
+    expenses:book               325  ;  Agar Magar
+    expenses:book               223  ;  The Sea Saw
+    expenses:book               318  ;  Love from Giraffes can't dance
+    expenses:book               318  ;  Love from Giraffes can't dance
+    expenses:book               350  ;  What we'll build
+    expenses:book		195  ;  Will Goondi come home
+    assets:checking          -17762
+
+2025-11-30 Platform fees (amazon/flipkart)
+    expenses:miscellaneous              50
+    assets:checking                    -50
+
+2025-11-30 Toys for secret santa
+    expenses:gift:toys            1500
+    assets:checking              -1500
+
+2025-11-30 Post charges for secret santa
+    expenses:miscellaneous            2300
+    assets:checking                  -2300
+
+2025-11-30 Packaging material for secret santa
+    expenses:miscellaneous             385
+    assets:checking                   -385
+
+2025-11-30 Secret Santa Contributions
+    assets:checking                 29221
+    revenues:secret-santa          -29221
+
+2025-11-30 Books
+    expenses:book               426  ;  Ganesh Pyne's Twilight Dreams
+    expenses:book               272  ;  Ambada's Dancing Brush
+    expenses:book               350  ;  Raza's Bindu
+    expenses:book               175  ;  A home of our own
+    expenses:book               175  ;  A walk with Thambi
+    expenses:book               165  ;  Lonely King and Queen
+    assets:checking           -1563
+
+
+2025-11-02 Online Reading  ; Mabel and the Mountain
+    assets:checking                   1361
+    revenues:cba-community           -1361
+
+2025-11-16 Online Reading  ; Vidroh ki chap chap
+    assets:checking                   1091
+    revenues:cba-community           -1091
+
+2025-11-30 Online Reading  ; Lonely King and Queen
+    assets:checking                   1456
+    revenues:cba-community           -1456
+
+2025-12-14 Online Reading  ; Aai and I
+    assets:checking                   1155
+    revenues:cba-community           -1155
+
+2025-12-04 Wool for Swadesh Aunty
+    liabilities:funds-held:swadesh            1100
+    assets:checking                          -1100
+
+2025-12-26 Posting Charges for books
+    expenses:shipping             434
+    assets:checking              -434
+
+2025-12-05 Support Group
+    assets:checking                          1600
+    liabilities:support-group:csa           -1600
+
+2025-11-05 Support Group
+    assets:checking                          1600
+    liabilities:support-group:csa           -1600
