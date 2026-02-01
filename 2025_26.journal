@@ -512,3 +512,51 @@ account expenses
 2025-11-05 Support Group
     assets:checking                          1600
     liabilities:support-group:csa           -1600
+
+2026-01-08 Pre-Makkala Workshops
+    assets:checking                    30000
+    revenues:school:workshop          -30000
+
+2026-01-11 CBA Reading
+    assets:checking                   3034
+    revenues:cba-community           -3034
+
+2026-01-18 CBA Reading  ; Na Aasman Gira, na chand baukhlaya
+    assets:checking                   1147
+    revenues:cba-community:hindi           -1147
+
+2026-01-14 Support Group
+    assets:checking                          1600
+    liabilities:support-group:csa           -1600
+
+2026-01-28 Support Group
+    assets:checking                            5500
+    liabilities:support-group:grief           -5500
+
+2026-01-09 Facilitator Fees
+    expenses:facilitator           20000
+    assets:checking               -20000
+
+2026-01-12 Graphic Design
+    expenses:graphic-design            1000
+    assets:checking                   -1000
+
+2026-01-27 CBA Hindi Books
+    expenses:book                 175  ;  A house for dubki
+    expenses:book                 175  ;  Will Goondi come home
+    expenses:book                 175  ;  Bhimrao Ambedkar - the boy who asked why
+    expenses:book                  70  ;  Chaand ke shikari
+    expenses:book                  70  ;  Mai Ali
+    expenses:book                  75  ;  Reva
+    expenses:book                  70  ;  Football
+    expenses:shipping              15
+    assets:checking              -825
+
+2026-01-26 Books
+    expenses:book               303  ;  Ritu weds Chandni
+    expenses:book               314  ;  Not a box
+    assets:checking            -617
+
+2026-01-28 Secret Santa
+    assets:checking                  1000
+    revenues:secret-santa           -1000
