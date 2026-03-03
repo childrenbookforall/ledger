@@ -560,3 +560,62 @@ account expenses
 2026-01-28 Secret Santa
     assets:checking                  1000
     revenues:secret-santa           -1000
+
+2026-02-01 Support Group
+    assets:checking                            3500
+    liabilities:support-group:grief           -3500
+
+2026-02-06 Support Group
+    assets:checking                            8000
+    liabilities:support-group:grief           -8000
+
+2026-02-10 Support Group
+    assets:checking                            5000
+    liabilities:support-group:grief           -5000
+
+2026-02-14 Support Group
+    assets:checking                            7000
+    liabilities:support-group:grief           -7000
+
+2026-02-15 Support Group
+    assets:checking                            4000
+    liabilities:support-group:grief           -4000
+
+2026-02-16 Support Group
+    assets:checking                           555
+    liabilities:support-group:joy            -555
+
+2026-02-20 Facilitator Fees
+    liabilities:support-group:grief           10400
+    assets:checking                          -10400
+
+2026-02-21 Support Group (Gifts to participants)
+    liabilities:support-group:grief            1983
+    assets:checking                           -1983
+
+2026-02-28 Shipping (gifts to support group participants)
+    liabilities:support-group:grief             340
+    assets:checking                            -340
+
+2026-02-23 Support Group
+    assets:checking                            3000
+    liabilities:support-group:grief           -3000
+
+2026-02-21 Support Group
+    assets:checking                          1600
+    liabilities:support-group:csa           -1600
+
+2026-02-26 Books
+    expenses:book               702  ;  My Heart
+    expenses:book               596  ;  Tara Goes Aaah
+    expenses:book               436  ;  Missing Mummy
+    expenses:book               652  ;  Journey
+    assets:checking           -2386
+
+2026-02-08 CBA Reading  ; Kya Goondi Ghar Lautega
+    assets:checking                         1407
+    revenues:cba-community:hindi           -1407
+
+2026-02-22 CBA Reading  ; BIG
+    assets:checking                   4197
+    revenues:cba-community           -4197
