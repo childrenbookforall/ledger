@@ -619,3 +619,63 @@ account expenses
 2026-02-22 CBA Reading  ; BIG
     assets:checking                   4197
     revenues:cba-community           -4197
+
+2026-03-31 Books
+    expenses:book               271  ;  Perfectly Norman
+    expenses:book               463  ;  The mountain who loved the bird x 2
+    expenses:book               981  ;  You ruined it
+    expenses:book               692  ;  The Sea Saw x 3
+    expenses:book               499  ;  The Tree in ME
+    expenses:book               271  ;  When Sadness comes to call
+    expenses:book               260  ;  How to Mend a Friend
+    expenses:book               551  ;  Big
+    expenses:book               323  ;  Flooded
+    expenses:book               307  ;  Where Happiness Begins
+    expenses:book               270  ;  Lost and Found
+    expenses:book               440  ;  Colors of Home
+    expenses:book               824  ;  Noise inside boys
+    assets:checking           -6152
+
+2026-03-15 Photocopy for proposal
+    expenses:admin              100
+    assets:checking            -100
+
+2026-03-07 CBA Stamp
+    expenses:admin              400
+    assets:checking            -400
+
+2026-03-12 Facilitator Fees
+    liabilities:support-group:grief            9333
+    assets:checking                           -9333
+
+2026-03-14 Facilitator Fees
+    liabilities:support-group:grief            9333
+    assets:checking                           -9333
+
+2026-03-11 Support Group
+    assets:checking                                  8000
+    liabilities:support-group:earth-grief           -8000
+
+2026-03-21 Support Group
+    assets:checking                                  6000
+    liabilities:support-group:earth-grief           -6000
+
+2026-03-26 Support Group
+    assets:checking                                     4000
+    liabilities:support-group:circle-of-care           -4000
+
+2026-03-08 CBA Reading (Ritu Weds Chandni)
+    assets:checking                   5040
+    revenues:cba-community           -5040
+
+2026-03-15 CBA Reading (Not a Box)
+    assets:checking                   3201
+    revenues:cba-community           -3201
+
+2026-03-22 CBA Reading (Journey)
+    assets:checking                   1827
+    revenues:cba-community           -1827
+
+2026-03-29 CBA Reading (Reclaiming Space)
+    assets:checking                  14567
+    revenues:cba-community          -14567
