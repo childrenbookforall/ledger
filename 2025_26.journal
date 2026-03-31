@@ -679,3 +679,7 @@ account expenses
 2026-03-29 CBA Reading (Reclaiming Space)
     assets:checking                  14567
     revenues:cba-community          -14567
+
+2026-03-15 Support Group
+    assets:checking                          1600
+    liabilities:support-group:csa           -1600
