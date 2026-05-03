@@ -1,0 +1,128 @@
+commodity ₹
+
+account assets
+account liabilities
+account equity
+account revenues
+account expenses
+
+2026-04-01 opening balances
+    assets:checking                                219930.75 = 219930.75
+    liabilities:funds-held:kashmir                 -19326.00 = -19326.00
+    liabilities:funds-held:swadesh                     76.00 = 76.00
+    liabilities:support-group:circle-of-care        -4000.00 = -4000.00
+    liabilities:support-group:csa                   -6960.00 = -6960.00
+    liabilities:support-group:earth-grief          -14000.00 = -14000.00
+    liabilities:support-group:grief                -72362.00 = -72362.00
+    liabilities:support-group:joy                  -20058.00 = -20058.00
+    equity:opening-balances
+
+2026-04-01 Write off Swadesh fund
+      liabilities:funds-held:swadesh   -76
+      expenses:miscellaneous            76
+
+2026-04-01 Convert support group liabilities to revenue
+      liabilities:support-group:circle-of-care        4000.00
+      liabilities:support-group:csa                   6960.00
+      liabilities:support-group:earth-grief          14000.00
+      liabilities:support-group:grief                72362.00
+      liabilities:support-group:joy                  20058.00
+      revenues:support-group			   -117380.00
+
+
+
+
+
+2026-04-30 Support Group
+    assets:checking                       1492
+    revenues:support-group:joy           -1492
+
+2026-04-25 Facilitator Fees
+    expenses:facilitator-fees           15000
+    assets:checking                    -15000
+
+2026-04-18 Facilitator Fees
+    expenses:facilitator-fees            6332
+    assets:checking                     -6332
+
+2026-04-18 Support Group
+    assets:checking                               5000
+    revenues:support-group:earth-grief           -5000
+
+2026-04-17 Refund
+    expenses:refund:earth-grief            4000
+    assets:checking                       -4000
+
+2026-04-12 Poster Design
+    expenses:poster-design            1000
+    assets:checking                  -1000
+
+2026-04-12 Postage for sending books to support group participants
+    expenses:shipping             788
+    assets:checking              -788
+
+2026-04-12 Photos for Tana Bana participants
+    expenses:gifts              250
+    assets:checking            -250
+
+2026-04-11 Support Group
+    assets:checking                               4000
+    revenues:support-group:earth-grief           -4000
+
+2026-04-08 Printer repair
+    expenses:miscellaneous            1000
+    assets:checking                  -1000
+
+2026-04-04 Support Group
+    assets:checking                                  8000
+    revenues:support-group:circle-of-care           -8000
+
+2026-04-01 Books from Muskan Publication
+    expenses:books              864
+    assets:checking            -864
+
+2026-04-02 Support group
+    assets:checking                               8008
+    revenues:support-group:earth-grief           -8008
+
+2026-04-20 Books
+    expenses:books              329  ;  Bhimayana
+    expenses:books              407  ;  Shelter of Sadness
+    expenses:books              253  ;  Wonder
+    expenses:books              634  ;  Everybody needs a rock
+    expenses:books              272  ;  Perfectly Norman
+    expenses:books              463  ;  2 X The Mountain that loved the bird
+    expenses:books              981  ;  You Ruined It
+    expenses:books              462  ;  The Sea Saw
+    expenses:books              271  ;  Sadness Comes to Call
+    expenses:books              260  ;  How to Mend a Friend
+    expenses:books              600  ;  Big
+    expenses:books              307  ;  Where Happiness Begins
+    expenses:books              268  ;  Lost and Found
+    expenses:books              437  ;  Colors of Home
+    expenses:books               231  ;  The Sea Saw
+    expenses:books               500  ;  The Tree in Me
+    expenses:books               500  ;  The Day you begin
+    expenses:books               445  ;  The Miraculous Journey of Edward Tulane
+    expenses:books             2135  ;  How Far Do you love me
+    assets:checking           -9755
+
+2026-04-12 Crochet Gift for Tana Bana Participants
+    expenses:gifts              500
+    assets:checking            -500
+
+2026-04-05 CBA Reading: Guthli Has Wings
+    assets:checking                   5070
+    revenues:cba-community           -5070
+
+2026-04-12 CBA Reading  ; The Noise Inside Boys
+    assets:checking                   2252
+    revenues:cba-community           -2252
+
+2026-04-19 CBA Reading  ; Everybody Needs a Rock
+    assets:checking                   4817
+    revenues:cba-community           -4817
+
+2026-04-26 CBA Reading  ; Bhimayana
+    assets:checking                   2897
+    revenues:cba-community           -2897
