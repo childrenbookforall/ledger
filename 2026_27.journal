@@ -126,3 +126,78 @@ account expenses
 2026-04-26 CBA Reading  ; Bhimayana
     assets:checking                   2897
     revenues:cba-community           -2897
+
+2026-05-24 Books
+    expenses:books             1428  ;  A Big Bad Wolf in the House
+    expenses:books              945  ;  So Few of Me
+    expenses:books              650  ;  The Promise
+    assets:checking           -3023
+
+2026-05-04 Support Groups
+    assets:checking                                  4000
+    revenues:support-group:circle-of-care           -4000
+
+2026-05-06 Support Groups
+    assets:checking                                 12000
+    revenues:support-group:circle-of-care          -12000
+
+2026-05-07 Support Groups
+    assets:checking                               3000
+    revenues:support-group:earth-grief           -3000
+
+2026-05-12 Support Group
+    assets:checking                                  4000
+    revenues:support-group:circle-of-care           -4000
+
+2026-05-18 Refund for support group
+    revenues:support-group:earth-grief            8000
+    assets:checking                              -8000
+
+2026-05-19 Group Supervision
+    assets:checking                             1350
+    revenues:cba-therapy:supervision           -1350
+
+2026-05-23 Facilitator Fees
+    expenses:facilitator-fees           10266
+    assets:checking                    -10266
+
+2026-05-26 Support Group
+    assets:checking                                  4000
+    revenues:support-group:circle-of-care           -4000
+
+2026-05-12 Postage for sending gifts to support group participants
+    expenses:shipping             254
+    assets:checking              -254
+
+2026-05-12 Gifts for Support Group Participants
+    expenses:books              330  ;  What We'll Build
+    expenses:books              330  ;  The Paper Dolls
+    expenses:books              250  ;  The Mountain that Loved the bird
+    expenses:books              350  ;  Giggy and Daddy
+    expenses:books              250  ;  The Sea Saw
+    expenses:books              300  ;  When Sadness Comes to Call
+    assets:checking           -1810
+
+2026-05-30 Server hosting charges for 3 months (April-June)
+    expenses:admin             1522
+    assets:checking           -1522
+
+2026-05-10 CBA Reading
+    assets:checking                   5363  ;  Missing Mummy
+    revenues:cba-community           -5363
+
+2026-05-16 CBA Reading
+    assets:checking                   3910  ;  My Heart
+    revenues:cba-community           -3910
+
+2026-05-17 CBA Reading
+    assets:checking                   4942  ;  So Few of Me
+    revenues:cba-community           -4942
+
+2026-05-24 CBA Reading
+    assets:checking                   4413
+    revenues:cba-community           -4413
+
+2026-05-31 CBA Reading
+    assets:checking                   3872  ;  A Shelter for Sadness
+    revenues:cba-community           -3872
