@@ -228,6 +228,21 @@ $FRAGMENT
       });
     });
   }
+
+  // report our real content height to the parent page so it can size the
+  // iframe to fit — avoids a second, nested scrollbar inside the iframe
+  function postHeight() {
+    window.parent.postMessage(
+      { type: 'ledger-height', height: document.documentElement.scrollHeight },
+      '*'
+    );
+  }
+  postHeight();
+  window.addEventListener('load', postHeight);
+  window.addEventListener('resize', postHeight);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(postHeight);
+  }
 </script>
 </body>
 </html>
