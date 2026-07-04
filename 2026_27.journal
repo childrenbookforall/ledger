@@ -201,3 +201,128 @@ account expenses
 2026-05-31 CBA Reading
     assets:checking                   3947  ;  A Shelter for Sadness
     revenues:cba-community           -3947
+
+2026-06-01 Books
+    expenses:books              300  ;  Where Happiness Begins
+    assets:checking            -300
+
+2026-06-06 Experiment with Digital Marketing for Support Groups
+    expenses:digital-marketing             137
+    assets:checking                       -137
+
+2026-06-27 Facilitator Fees
+    expenses:facilitator-fees           12000  ;  Facilitator 1
+    expenses:facilitator-fees           12000
+    assets:checking                    -24000
+
+2026-06-30 Offline Workshop Facilitator Fees
+    expenses:facilitator-fees            2000
+    assets:checking                     -2000
+
+2026-06-29 Offline workshop travel expenses
+    expenses:travel            4128
+    assets:checking           -4128
+
+2026-06-25 Hosting charges
+    expenses:admin             2730
+    assets:checking           -2730
+
+2026-06-29 Offline workshop at Srijan
+    assets:checking              20000
+    revenues:workshops          -20000
+
+2026-06-25 Support Group
+    assets:checking                                  8000
+    revenues:support-group:circle-of-care           -8000
+    assets:checking                                  4000
+    revenues:support-group:chhaya                   -4000
+
+2026-06-22 Supervision
+    assets:checking                             2000
+    revenues:cba-therapy:supervision           -2000
+
+2026-06-18 Support Group
+    assets:checking                          2000
+    revenues:support-group:chhaya           -2000
+
+2026-06-17 Support Group
+    assets:checking                                  4000
+    revenues:support-group:circle-of-care           -4000
+
+2026-06-16 Support Group
+    assets:checking                                 12000
+    revenues:support-group:circle-of-care          -12000
+
+2026-06-15 Support Group
+    assets:checking                                 12000
+    revenues:support-group:circle-of-care          -12000
+
+2026-06-14 Supervision
+    assets:checking                             2400
+    revenues:cba-therapy:supervision           -2400
+
+2026-06-14 Support Group
+    assets:checking                          1000
+    revenues:support-group:chhaya           -1000
+
+2026-06-13 Support Group
+    assets:checking                                  3000
+    revenues:support-group:circle-of-care           -3000
+
+2026-06-12 Support Group
+    assets:checking                         7000
+    revenues:support-group:heart           -7000
+
+2026-06-11 Support Group
+    assets:checking                       8000
+    revenues:support-group:dor           -8000
+
+2026-06-10 Support Group
+    assets:checking                                  3000
+    revenues:support-group:circle-of-care           -3000
+    assets:checking                                  8000
+    revenues:support-group:circle-of-care           -8000
+
+2026-06-08 Supervision
+    assets:checking                             1850
+    revenues:cba-therapy:supervision           -1850
+
+2026-06-05 Support Group
+    assets:checking                                  4000
+    revenues:support-group:circle-of-care           -4000
+
+2026-06-03 Support Group
+    assets:checking                                  4000
+    revenues:support-group:circle-of-care           -4000
+
+2026-06-02 Support Group
+    assets:checking                                  6000
+    revenues:support-group:circle-of-care           -6000
+
+2026-06-29 Support Group
+    assets:checking                        2183
+    revenues:support-group:nami           -2183
+
+2026-06-28 CBA Reading: The Sea Saw
+    assets:checking                   5336
+    revenues:cba-community           -5336
+
+2026-06-27 CBA Reading (Postponed to 5th July): Football (Hindi)
+    assets:checking                    472
+    revenues:cba-community            -472
+
+2026-06-21 CBA Reads: The Heart and the Bottle
+    assets:checking                   5022
+    revenues:cba-community           -5022
+
+2026-06-14 CBA Reading: The Big Bad Wolf in my house
+    assets:checking                   2836
+    revenues:cba-community           -2836
+
+2026-06-07 CBA Reading: Where Happiness Begins
+    assets:checking                   2847
+    revenues:cba-community           -2847
+
+2026-06-30 Offline Workshop Facilitator feees
+    expenses:facilitator-fees            3333
+    assets:checking                     -3333

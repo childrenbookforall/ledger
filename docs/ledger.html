@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f4f2;
+    --card: #ffffff;
+    --text: #222222;
+    --muted: #aaaaaa;
+    --border: #e8e8e8;
+    --accent: #5c8c7a;
+    --danger: #e53e3e;
+  }
+  html.dark {
+    --bg: #111111;
+    --card: #1e1e1e;
+    --text: #e8e8e8;
+    --muted: #777777;
+    --border: #2e2e2e;
+    --accent: #7ab5a0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 1.5rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    color: var(--text);
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--border);
+    white-space: normal;
+    word-break: break-word;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+    background: var(--bg);
+    white-space: nowrap;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+
+  td.date {
+    white-space: nowrap;
+    color: var(--text);
+  }
+
+  td.num {
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+  td.num.neg { color: var(--danger); }
+  td.num.pos { color: var(--accent); }
+
+  @media (max-width: 640px) {
+    body { padding: 0.75rem; font-size: 13px; }
+    h1 { font-size: 1rem; }
+
+    .card { background: transparent; border: none; box-shadow: none; }
+    .table-wrap { overflow-x: visible; }
+    table, thead, tbody, tr, td, th { display: block; width: 100%; }
+    thead { display: none; }
+
+    /* one card per transaction, with real spacing between them */
+    tbody tr {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 0.9rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      margin-bottom: 0.9rem;
+      padding: 0.85rem 1rem;
+    }
+    tbody tr:last-child { margin-bottom: 0; }
+    tbody tr:hover td { background: transparent; }
+
+    td {
+      display: block;
+      padding: 0;
+      border: none;
+      white-space: normal;
+      text-align: left;
+    }
+    td::before { content: none; }
+
+    /* column 1: date — small muted label above the description */
+    td:nth-child(1) {
+      color: var(--muted);
+      font-size: 0.7rem;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+    }
+
+    /* column 2: description — the card's title */
+    td:nth-child(2) {
+      color: var(--text);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 0.35rem;
+    }
+
+    /* column 3: other accounts — muted subtitle */
+    td:nth-child(3) {
+      color: var(--muted);
+      font-size: 0.75rem;
+      line-height: 1.4;
+      margin-bottom: 0.65rem;
+    }
+
+    /* columns 4 & 5: change + balance — footer row, side by side */
+    td:nth-child(4), td:nth-child(5) {
+      display: inline-flex;
+      width: 48%;
+      align-items: baseline;
+      gap: 0.3rem;
+      padding-top: 0.55rem;
+      border-top: 1px dashed var(--border);
+      font-size: 0.85rem;
+    }
+    td:nth-child(4)::before, td:nth-child(5)::before {
+      content: attr(data-label);
+      color: var(--muted);
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      font-weight: 500;
+    }
+    td:nth-child(5) { justify-content: flex-end; }
+  }
+</style>
+</head>
+<body>
+<h1>CBA Ledger - F.Y 2026-27</h1>
+<div class="card">
+  <div class="table-wrap">
+<table><thead><tr><th>date</th><th>description</th><th>otheraccounts</th><th>change</th><th>balance</th></tr></thead><tbody><tr><td>2026-04-01</td><td>opening balances</td><td>li:fu:kashmir, li:fu:swadesh, li:su:circle-of-care, li:su:csa, li:su:earth-grief, li:su:grief, li:su:joy, eq:opening-balances</td><td>219930.75</td><td>219930.75</td></tr><tr><td>2026-04-01</td><td>Books from Muskan Publication</td><td>ex:books</td><td>-864.00</td><td>219066.75</td></tr><tr><td>2026-04-02</td><td>Support group</td><td>re:su:earth-grief</td><td>8008.00</td><td>227074.75</td></tr><tr><td>2026-04-04</td><td>Support Group</td><td>re:su:circle-of-care</td><td>8000.00</td><td>235074.75</td></tr><tr><td>2026-04-05</td><td>CBA Reading: Guthli Has Wings</td><td>re:cba-community</td><td>5070.00</td><td>240144.75</td></tr><tr><td>2026-04-08</td><td>Printer repair</td><td>ex:miscellaneous</td><td>-1000.00</td><td>239144.75</td></tr><tr><td>2026-04-11</td><td>Support Group</td><td>re:su:earth-grief</td><td>4000.00</td><td>243144.75</td></tr><tr><td>2026-04-12</td><td>Poster Design</td><td>ex:poster-design</td><td>-1000.00</td><td>242144.75</td></tr><tr><td>2026-04-12</td><td>Postage for sending books to support group participants</td><td>ex:shipping</td><td>-788.00</td><td>241356.75</td></tr><tr><td>2026-04-12</td><td>Photos for Tana Bana participants</td><td>ex:gifts</td><td>-250.00</td><td>241106.75</td></tr><tr><td>2026-04-12</td><td>Crochet Gift for Tana Bana Participants</td><td>ex:gifts</td><td>-500.00</td><td>240606.75</td></tr><tr><td>2026-04-12</td><td>CBA Reading</td><td>re:cba-community</td><td>2252.00</td><td>242858.75</td></tr><tr><td>2026-04-17</td><td>Refund</td><td>ex:re:earth-grief</td><td>-4000.00</td><td>238858.75</td></tr><tr><td>2026-04-18</td><td>Facilitator Fees</td><td>ex:facilitator-fees</td><td>-6332.00</td><td>232526.75</td></tr><tr><td>2026-04-18</td><td>Support Group</td><td>re:su:earth-grief</td><td>5000.00</td><td>237526.75</td></tr><tr><td>2026-04-19</td><td>CBA Reading</td><td>re:cba-community</td><td>4817.00</td><td>242343.75</td></tr><tr><td>2026-04-20</td><td>Books</td><td>ex:books</td><td>-9755.00</td><td>232588.75</td></tr><tr><td>2026-04-25</td><td>Facilitator Fees</td><td>ex:facilitator-fees</td><td>-15000.00</td><td>217588.75</td></tr><tr><td>2026-04-26</td><td>CBA Reading</td><td>re:cba-community</td><td>2897.00</td><td>220485.75</td></tr><tr><td>2026-04-30</td><td>Support Group</td><td>re:su:joy</td><td>1492.00</td><td>221977.75</td></tr><tr><td>2026-05-04</td><td>Support Groups</td><td>re:su:circle-of-care</td><td>4000.00</td><td>225977.75</td></tr><tr><td>2026-05-06</td><td>Support Groups</td><td>re:su:circle-of-care</td><td>12000.00</td><td>237977.75</td></tr><tr><td>2026-05-07</td><td>Support Groups</td><td>re:su:earth-grief</td><td>3000.00</td><td>240977.75</td></tr><tr><td>2026-05-10</td><td>CBA Reading</td><td>re:cba-community</td><td>5363.00</td><td>246340.75</td></tr><tr><td>2026-05-12</td><td>Support Group</td><td>re:su:circle-of-care</td><td>4000.00</td><td>250340.75</td></tr><tr><td>2026-05-12</td><td>Postage for sending gifts to support group participants</td><td>ex:shipping</td><td>-254.00</td><td>250086.75</td></tr><tr><td>2026-05-12</td><td>Gifts for Support Group Participants</td><td>ex:books</td><td>-1810.00</td><td>248276.75</td></tr><tr><td>2026-05-16</td><td>CBA Reading</td><td>re:cba-community</td><td>3910.00</td><td>252186.75</td></tr><tr><td>2026-05-17</td><td>CBA Reading</td><td>re:cba-community</td><td>4942.00</td><td>257128.75</td></tr><tr><td>2026-05-18</td><td>Refund for support group</td><td>re:su:earth-grief</td><td>-8000.00</td><td>249128.75</td></tr><tr><td>2026-05-19</td><td>Group Supervision</td><td>re:cb:supervision</td><td>1350.00</td><td>250478.75</td></tr><tr><td>2026-05-23</td><td>Facilitator Fees</td><td>ex:facilitator-fees</td><td>-10266.00</td><td>240212.75</td></tr><tr><td>2026-05-24</td><td>Books</td><td>ex:books</td><td>-3023.00</td><td>237189.75</td></tr><tr><td>2026-05-24</td><td>CBA Reading</td><td>re:cba-community</td><td>4413.00</td><td>241602.75</td></tr><tr><td>2026-05-26</td><td>Support Group</td><td>re:su:circle-of-care</td><td>4000.00</td><td>245602.75</td></tr><tr><td>2026-05-30</td><td>Server hosting charges for 3 months (April-June)</td><td>ex:admin</td><td>-1522.00</td><td>244080.75</td></tr><tr><td>2026-05-31</td><td>CBA Reading</td><td>re:cba-community</td><td>3947.00</td><td>248027.75</td></tr><tr><td>2026-06-01</td><td>Books</td><td>ex:books</td><td>-300.00</td><td>247727.75</td></tr><tr><td>2026-06-02</td><td>Support Group</td><td>re:su:circle-of-care</td><td>6000.00</td><td>253727.75</td></tr><tr><td>2026-06-03</td><td>Support Group</td><td>re:su:circle-of-care</td><td>4000.00</td><td>257727.75</td></tr><tr><td>2026-06-05</td><td>Support Group</td><td>re:su:circle-of-care</td><td>4000.00</td><td>261727.75</td></tr><tr><td>2026-06-06</td><td>Experiment with Digital Marketing for Support Groups</td><td>ex:digital-marketing</td><td>-137.00</td><td>261590.75</td></tr><tr><td>2026-06-07</td><td>CBA Reading: Where Happiness Begins</td><td>re:cba-community</td><td>2847.00</td><td>264437.75</td></tr><tr><td>2026-06-08</td><td>Supervision</td><td>re:cb:supervision</td><td>1850.00</td><td>266287.75</td></tr><tr><td>2026-06-10</td><td>Support Group</td><td>re:su:circle-of-care</td><td>11000.00</td><td>277287.75</td></tr><tr><td>2026-06-11</td><td>Support Group</td><td>re:su:dor</td><td>8000.00</td><td>285287.75</td></tr><tr><td>2026-06-12</td><td>Support Group</td><td>re:su:heart</td><td>7000.00</td><td>292287.75</td></tr><tr><td>2026-06-13</td><td>Support Group</td><td>re:su:circle-of-care</td><td>3000.00</td><td>295287.75</td></tr><tr><td>2026-06-14</td><td>Supervision</td><td>re:cb:supervision</td><td>2400.00</td><td>297687.75</td></tr><tr><td>2026-06-14</td><td>Support Group</td><td>re:su:chhaya</td><td>1000.00</td><td>298687.75</td></tr><tr><td>2026-06-14</td><td>CBA Reading: The Big Bad Wolf in my house</td><td>re:cba-community</td><td>2836.00</td><td>301523.75</td></tr><tr><td>2026-06-15</td><td>Support Group</td><td>re:su:circle-of-care</td><td>12000.00</td><td>313523.75</td></tr><tr><td>2026-06-16</td><td>Support Group</td><td>re:su:circle-of-care</td><td>12000.00</td><td>325523.75</td></tr><tr><td>2026-06-17</td><td>Support Group</td><td>re:su:circle-of-care</td><td>4000.00</td><td>329523.75</td></tr><tr><td>2026-06-18</td><td>Support Group</td><td>re:su:chhaya</td><td>2000.00</td><td>331523.75</td></tr><tr><td>2026-06-21</td><td>CBA Reads: The Heart and the Bottle</td><td>re:cba-community</td><td>5022.00</td><td>336545.75</td></tr><tr><td>2026-06-22</td><td>Supervision</td><td>re:cb:supervision</td><td>2000.00</td><td>338545.75</td></tr><tr><td>2026-06-25</td><td>Hosting charges</td><td>ex:admin</td><td>-2730.00</td><td>335815.75</td></tr><tr><td>2026-06-25</td><td>Support Group</td><td>re:su:circle-of-care, re:su:chhaya</td><td>12000.00</td><td>347815.75</td></tr><tr><td>2026-06-27</td><td>Facilitator Fees</td><td>ex:facilitator-fees</td><td>-24000.00</td><td>323815.75</td></tr><tr><td>2026-06-27</td><td>CBA Reading (Postponed to 5th July): Football (Hindi)</td><td>re:cba-community</td><td>472.00</td><td>324287.75</td></tr><tr><td>2026-06-28</td><td>CBA Reading: The Sea Saw</td><td>re:cba-community</td><td>5336.00</td><td>329623.75</td></tr><tr><td>2026-06-29</td><td>Offline workshop travel expenses</td><td>ex:travel</td><td>-4128.00</td><td>325495.75</td></tr><tr><td>2026-06-29</td><td>Offline workshop at Srijan</td><td>re:workshops</td><td>20000.00</td><td>345495.75</td></tr><tr><td>2026-06-29</td><td>Support Group</td><td>re:su:nami</td><td>2183.00</td><td>347678.75</td></tr><tr><td>2026-06-30</td><td>Offline Workshop Facilitator Fees</td><td>ex:facilitator-fees</td><td>-2000.00</td><td>345678.75</td></tr><tr><td>2026-06-30</td><td>Offline Workshop Facilitator feees</td><td>ex:facilitator-fees</td><td>-3333.00</td><td>342345.75</td></tr></tbody></table>
+  </div>
+</div>
+<script>
+  // theme: read ?theme=dark|light from URL (set by parent app), else fall back to system preference
+  const params = new URLSearchParams(location.search);
+  const theme = params.get('theme');
+  if (theme === 'dark' || (!theme && matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+
+  const table = document.querySelector('table');
+  if (table) {
+    // show newest entries first (header row stays put)
+    const rows = Array.from(table.rows);
+    rows.slice(1).reverse().forEach(r => table.appendChild(r));
+
+    // detect dates and amounts, format/color them
+    const dateRe = /^\d{4}[-\/.]\d{2}[-\/.]\d{2}$/;
+    const numRe = /^-?[\d,]+\.\d{2}(\s?[A-Za-z$€£]{1,4})?$/;
+
+    // column headers, used as data-label for the mobile stacked-card layout
+    const headers = Array.from(table.rows[0].cells).map(th => th.textContent.trim());
+
+    table.querySelectorAll('tr').forEach((row, i) => {
+      if (i === 0) return; // skip header
+      Array.from(row.cells).forEach((td, idx) => {
+        td.setAttribute('data-label', headers[idx] || '');
+        const text = td.textContent.trim();
+        if (dateRe.test(text)) {
+          const d = new Date(text + 'T00:00:00Z');
+          td.textContent = d.toLocaleDateString('en-GB', {
+            day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC'
+          });
+          td.classList.add('date');
+        } else if (numRe.test(text)) {
+          td.classList.add('num');
+          td.classList.add(text.startsWith('-') ? 'neg' : 'pos');
+        }
+      });
+    });
+  }
+</script>
+</body>
+</html>
