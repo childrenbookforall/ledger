@@ -402,3 +402,7 @@ account expenses
 2026-07-19 CBA Reading: Different Worlds
     assets:checking                   2546
     revenues:cba-community           -2546
+
+2026-07-25 Hosting charges (app+website)
+    expenses:admin             2699
+    assets:checking           -2699
