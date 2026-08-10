@@ -150,7 +150,7 @@ account expenses
     revenues:support-group:circle-of-care           -4000
 
 2026-05-18 Refund for support group
-    revenues:support-group:earth-grief            8000
+    expenses:refund:support-group:earth-grief            8000
     assets:checking                              -8000
 
 2026-05-19 Group Supervision
@@ -326,3 +326,79 @@ account expenses
 2026-06-30 Offline Workshop Facilitator fees
     expenses:facilitator-fees            3333
     assets:checking                     -3333
+
+2026-07-06 Facilitator Fees (for Ghera)
+    expenses:facilitator-fees            8334
+    assets:checking                     -8334
+
+2026-07-07 Refund (for support group)
+    expenses:refund:support-group-dor            8000
+    assets:checking           			-8000
+
+2026-07-27 Facilitator Fees (for Nami)
+    expenses:facilitator-fees            4284
+    assets:checking                     -4284
+
+2026-07-16 Facilitator fees (for Ullas)
+    expenses:facilitator-fees            2850
+    assets:checking                     -2850
+
+2026-07-16 Contribution
+    assets:checking                                1500
+    revenues:cba-community:contribution           -1500
+
+2026-07-16 Refund (for Ullas)
+    expenses:refund:support-group:ullas            1500
+    assets:checking                               -1500
+
+2026-07-16 Refund (for Ullas)
+    expenses:refund:support-group:ullas            1500
+    assets:checking                               -1500
+
+2026-07-14 Secret Santa Gift
+    expenses:gifts               70
+    assets:checking             -70
+
+2026-07-02 Support Group
+    assets:checking                          2000
+    revenues:support-group:chhaya           -2000
+
+2026-07-04 Support Group
+    assets:checking                          2000
+    revenues:support-group:chhaya           -2000
+
+2026-07-10 Support Group
+    assets:checking                          8000
+    revenues:support-group:sanjha           -8000
+
+2026-07-18 Support Group
+    assets:checking                          2000
+    revenues:support-group:chhaya           -2000
+
+2026-07-19 Suppport Group
+    assets:checking                          2000
+    revenues:support-group:chhaya           -2000
+
+2026-07-23 Support Group
+    assets:checking                          4000
+    revenues:support-group:chhaya           -4000
+
+2026-07-30 Support Group
+    assets:checking                          5000
+    revenues:support-group:chhaya           -5000
+
+2026-07-18 Support Group
+    assets:checking                        6385
+    revenues:support-group:nami           -6385
+
+2026-07-05 CBA Reading: Football
+    assets:checking                   2465
+    revenues:cba-community           -2465
+
+2026-07-12 CBA Reading: The Promise
+    assets:checking                   5267
+    revenues:cba-community           -5267
+
+2026-07-19 CBA Reading: Different Worlds
+    assets:checking                   2546
+    revenues:cba-community           -2546
