@@ -406,3 +406,67 @@ account expenses
 2026-07-25 Hosting charges (app+website)
     expenses:admin             2699
     assets:checking           -2699
+
+2026-08-25 Facilitator Fee (for 3 storywriting workshops)
+    expenses:facilitator-fees           14070
+    assets:checking                    -14070
+
+2026-08-26 Advance Salaries (for 3 team members)
+    expenses:salary           30000
+    assets:checking          -30000
+
+2026-08-03 Support Group
+    assets:checking                           900
+    revenues:support-group:chhaya            -900
+
+2026-08-04 Support Group
+    assets:checking                          6000
+    revenues:support-group:chhaya           -6000
+
+2026-08-13 Print Value Postcards
+    expenses:miscellaneous             900
+    assets:checking                   -900
+
+2026-08-21 Support Group
+    assets:checking                           900
+    revenues:support-group:chhaya            -900
+
+2026-08-28 Office Rent
+    expenses:office-rent            3500
+    assets:checking                -3500
+
+2026-08-30 Hosting charges + subscriptions
+    expenses:admin             2940
+    assets:checking           -2940
+
+2026-08-28 Office Supplies
+    expenses:miscellaneous             300
+    assets:checking                   -300
+
+2026-08-30 CBA Reading (Remembering)
+    assets:checking                   1547
+    revenues:cba-community           -1547
+
+2026-08-23 CBA Reading (Happiness City)
+    assets:checking                   2284
+    revenues:cba-community           -2284
+
+2026-08-16 CBA Reading (Rabbit Listened)
+    assets:checking                   2666
+    revenues:cba-community           -2666
+
+2026-08-09 CBA Reading (Wounds)
+    assets:checking                   3171
+    revenues:cba-community           -3171
+
+2026-08-02 CBA Reading (We Found a Hat)
+    assets:checking                   7217
+    revenues:cba-community           -7217
+
+2026-08-23 Story Writing Workshops
+    assets:checking              31061
+    revenues:workshops          -31061
+
+2026-08-31 Story Writing Guide
+    assets:checking               1970
+    revenues:workshops           -1970
