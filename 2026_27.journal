@@ -471,3 +471,111 @@ account expenses
     assets:checking               1970
     revenues:workshops           -1970
 
+
+2026-10-05 Hosting Expenses
+    expenses:admin             2940
+    assets:checking           -2940
+
+2026-10-29 Travel
+    expenses:travel             500
+    assets:checking            -500
+
+2026-10-29 Reimbursement for Jet's lodging (for 7 days travel)
+    expenses:travel            3500
+    assets:checking           -3500
+
+2026-10-28 Bus Tickets (Delhi to Dharamshala)
+    expenses:travel            1800
+    assets:checking           -1800
+
+2026-10-27 Payment to facilitators (for school workshop)
+    expenses:facilitator-fees           22500
+    assets:checking                    -22500
+
+2026-10-21 Printing posters (for the stall)
+    expenses:admin              320
+    assets:checking            -320
+
+2026-10-21 Salary expenses
+    expenses:admin            25000
+    assets:checking          -25000
+
+2026-10-20 Bus Tickets (from DHM to Delhi)
+    expenses:travel            1600
+    assets:checking           -1600
+
+2026-10-15 Payment to facilitators (for Ghera Support Group)
+    expenses:facilitator-fees            3102
+    assets:checking                     -3102
+
+2026-10-27 Secret Santa Books
+    expenses:gifts             1203
+    assets:checking           -1203
+
+2026-10-24 Taxi
+    expenses:travel             360
+    assets:checking            -360
+
+2026-10-28 Stationary (pins, chartpapers, A4,s ticky notes, printer cartridge)
+    expenses:admin             1793
+    assets:checking           -1793
+
+2026-10-28 Taxi
+    expenses:travel             450
+    assets:checking            -450
+
+2026-10-09 India For Palestine (comic book)
+    expenses:books             1049
+    assets:checking           -1049
+
+2026-10-11 Book (When I See Red)
+    expenses:books             1800
+    assets:checking           -1800
+
+2026-10-28 Hindi Books
+    expenses:books              175
+    assets:checking            -175
+
+2026-10-04 Reading Contribution  ; from Betiya bhi chahe Azadi
+    assets:checking                                4832
+    revenues:cba-community:contribution           -4832
+
+2026-10-11 Reading Contribution  ; from The Grand Hotel of Feelings
+    assets:checking                                6422
+    revenues:cba-community:contribution           -6422
+
+2026-10-14 Reading Contribution  ; from This is a dictatorship
+    assets:checking                                9683
+    revenues:cba-community:contribution           -9683
+
+2026-10-18 Reading Contribution  ; I Touched the Sun
+    assets:checking                                3482
+    revenues:cba-community:contribution           -3482
+
+2026-10-25 Reading Contribution  ; How to Mend A Friend
+    assets:checking                                3792
+    revenues:cba-community:contribution           -3792
+
+2026-10-17 Support Group (Ghera)
+    assets:checking                          2160
+    revenues:support-group:earth-grief           -2160
+
+2026-10-20 Support Group (Chhaya)
+    assets:checking                           900
+    revenues:support-group:chhaya            -900
+
+2026-10-22 Pre-order Reclaiming Space
+    assets:checking            1500
+    revenues:books            -1500
+
+2026-10-26 School Workshop
+    assets:checking              25000
+    revenues:workshops          -25000
+
+2026-10-24 Secret Santa
+    assets:checking                   3850
+    revenues:cba-community           -3850
+
+2026-10-01 Story Writing Guide
+    assets:checking             500
+    revenues:guides            -500
